@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /*Tüm h1 leri seç*/
+/* h1{
+    color:red;
+    background:saddlebrown;
+}
+p{
+    color:seagreen;
+    background: indigo;
+} */
+/* h1,p{ /*h1 ve p yi tek bir yerden kontrol edilmesini sağladık*/
+    /* color: red;
+    background: blue;
+/* } */ 
+/* h1 {
+    color: brown;
+    background: chartreuse;
+} */
+/* #logo{ /*id si logo olanları seçtik*/
+    /* color: red;
+    background: blue;
+} */ 
+/* p{
+    color:brown;
+} */
+/* .info{ /*class ı info olanları seçmiş olduk*/
+    /* color: brown;
+    background: chocolate;
+} */ 
+/* #logo, .lead { /*id si logo olanları ve class ı lead olanları seç*/
+  /* color: aliceblue;
+  background: aqua;
+} */ 
+/* #para1.lead{ /*Hem id si para1 olmalı hem de class ı lead olmalı.Bu iki şartı sağlayanı seçecek.*/
+    /* color: black;
+    background: blueviolet;
+} */ 
+/* /*a{
+    text-decoration: none; /*sayfadaki linklerin altındaki çizginin kaybolması sağlandı*/
+/* }  */
+
+/* ul li a { /*ul in içindeki li nin içindeki a etiketi seçildi*/
+  /* text-decoration: none;
+} */ 
+/* .info span{ /* class ı info olanların altındaki spanler seçilecek*/
+
+/* }  */
+
+/* .info .primary { /*class ı info olanların altındaki class ı primary olanları seç */
+ /* color: brown;
+} */ 
+
+*{ /* Tüm elemanları seçer */
+   font-size: 30px;
+    color: chartreuse;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Header 1</h1>
+        <h1 id="logo">Logo</h1>
+
+        <ul>
+            <li>
+                <a href="a">Contant</a>
+            </li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </header>
+    <h1>
+        Header 2
+    </h1>
+    <p id="para1" class="lead info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dignissimos?
+    </p>
+    <p class="info">
+        Lorem ipsum <span class="primary">sit amet consectetur </span>  adipisicing elit. Culpa, dignissimos?
+    </p>
+    <p class="info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dignissimos?
+    </p>
+    <p>Test Paragraph</p>
+    <a href="#">Home</a>
+</body>
+
+</html>
