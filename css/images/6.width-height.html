@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Width,Height,Max-Width</title>
+
+    <style>
+        div#box-1 {
+            width: 50%; /*width yerine max-width kullanılarak max px uzunluğu ayarlanabilir.*/
+            height: 100px;
+            background:blueviolet;
+        }
+       div#box-2 {
+           width: 50%;
+           height: 50px;
+           background: brown; 
+           /*Box-2 özellikleri box-1 in boyutları içerisinde ayarlanacak çünkü box-2 nin divini box-1 içerisinde verdik*/
+       }
+
+
+    </style>
+
+</head>
+
+<body>
+    <div id="box-1">
+        <div id="box-2"></div>
+        
+    </div>
+
+</body>
+
+</html>
