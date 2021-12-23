@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Position</title>
+    <style>
+        .outer-box{
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            position: relative; /*inner box ın parent ı olduğu için position static olamaz*/
+        }
+        .inner-box{
+            width: 50px;
+            height: 50px;
+            background-color: turquoise;
+            position: absolute; /*position parent a göre verilir*/
+            top: 10px;
+            left: 10px;
+        }
+        /* .red{
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+            position: relative; /*bulunduğu yerden position verilmesini sağlar*/
+            /*top: 20px;
+            left: 20px;
+            z-index: 1; /*bu renk kutunun önde durmasını saplar diğer kutu üstüne çıksa bile*/
+            /*z index hangi kutunun büyükse o önde durur*/
+        /* } */ 
+        /* .blue{
+              width: 100px;
+              height: 100px;
+              background-color: turquoise;
+              position: relative;
+              left: 5px;
+              top: 5px;
+             
+        } */
+        /* .fixed-topbar {
+            width: 50%;
+            height: 20px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+        } */
+    </style>
+</head>
+<body >
+    <div class="outer-box">
+        <div class="inner-box"></div>
+    </div>
+    <!-- <div class="fixed-topbar">Udemy</div> -->
+    <!-- <div class="red"></div>
+    <div class="blue"></div> -->
+</body>
+</html>
