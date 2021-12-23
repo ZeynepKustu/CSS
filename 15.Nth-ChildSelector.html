@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nth-Child Selector</title>
+    <style>
+        p {
+            font-size: 1.5em;
+        }
+        ul{
+            font-size: 1.5em;
+            list-style-type: none;
+        }
+        ul li:nth-child(2n){
+            color: saddlebrown;
+        }
+        ul li:nth-child(2n+1){
+            color: blueviolet;
+        }
+        /* p:first-child {
+            background: crimson;
+        }
+        p:last-child {
+            background: olive
+        }
+        p:nth-child(1){ /*burda sadece 1.child ın rengi değişmiş oldu*/
+            /* color: chocolate;
+        }
+        p:nth-child(3){
+            color: coral;
+        } */ 
+
+        /* p:nth-child(even){
+            color: red;
+        }                    /*tek ya da çift çocukları da even ve odd ile seçebiliyoruz*/
+        /* p:nth-child(odd){
+            color: royalblue;
+        } */ 
+
+        /*an+b şeklinde formüllerde kullanılabilir n ve b sıfırdan başlıyor*/
+
+    </style>
+</head>
+
+<body>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, voluptate.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, delectus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, expedita.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, similique.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, dolor.</p> -->
+    <ul>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+    <li>Element</li>
+
+    </ul>
+
+</body>
+
+</html>
